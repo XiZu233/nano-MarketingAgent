@@ -22,6 +22,12 @@ SEO Agent + Lead Agent 并行
 - Streamlit 总控：支持表单输入、结果展示和 zip 下载。
 - CrewAI 增强位：已预留 `workflows/crew_pipeline.py`，不会影响稳定模式。
 
+## 参考与本地化改造
+
+项目参考了 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) 中多 Agent 应用的产品组织方式，重点借鉴 Sales Intelligence、Competitor Intelligence 和 AI Services Agency 这类“多阶段 Agent + 结构化交付物”的模板。
+
+本项目没有直接复制其实现，而是面向中国本地生活营销场景做本地化改造：将 battle card、竞品分析、虚拟 agency 等模式转换为小红书爆款分析、线索挖掘、商家文案和私信触达工作流。详细改造路线见 [docs/awesome_llm_apps_localization.md](docs/awesome_llm_apps_localization.md)。
+
 ## 安装
 
 ```powershell
